@@ -24,7 +24,7 @@ Fiecare componenta (cu extensia .vue) are trei parti:
 
 ca sa intelegi care e treaba cu componentele, imagineaza-ti cum ar putea arata pagina noastra:
 ``` html
-<template> //
+<template>
     <div>
         <navbar></navbar>
         <news></news>
