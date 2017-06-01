@@ -23,7 +23,8 @@ Fiecare componenta (cu extensia .vue) are trei parti:
 ## Structura modulara
 
 ca sa intelegi care e treaba cu componentele, imagineaza-ti cum ar putea arata pagina noastra:
-<template> //o sa intelegi in curand care e treaba cu template
+``` html
+<template> //
     <div>
         <navbar></navbar>
         <news></news>
@@ -32,17 +33,20 @@ ca sa intelegi care e treaba cu componentele, imagineaza-ti cum ar putea arata p
         <footer></footer>
     </div>
 </template>
+```
+o sa intelegi in curand care e treaba cu template
 
 In exemplul de mai sus navbar, news, files, chat si footer sunt componente. Template-ul de mai sus ar apartine componentei principale (App.vue)
 
 Mai de parte, sa ne imaginam componenta navbar
+``` html
 <template>
     <div class="nav">
         <span>Secretariat Virtual</span>
         <loginbox></loginbox>
     </div>
 </template>
-
+```
 In exemplul de mai sus, observi un mix de HTML normal cu o noua componenta - loginbox.
 Componentele sunt nestable, which is nice.
 
