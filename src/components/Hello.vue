@@ -19,7 +19,7 @@ Check this out: -->
 <script>
 //Aici vom face ceva mai ciudat pentru a demonstra cum se incarca date dinamice dintr-un API (ca cel facut de David)
 //Pentru asta, voi folosi o biblioteca numita AXIOS pentru a face HTTP requests
-//Pentru date, vom folosi https://jsonplaceholder.typicode.com/posts/1
+//Pentru date, vom folosi https://jsonplaceholder.typicode.com/posts/
 
 //vom initializa o variabila goala in "data", apoi vom incarca datele create in handler-ul "created" despre care am scris mai devreme
 import Axios from 'axios'
